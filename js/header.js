@@ -6,7 +6,7 @@ export function Header() {
     itemHeader.addEventListener("click", itemBold);
 
     function itemBold() {
-      itemHeader.classList.add("bold");
+      itemHeader.classList.toggle("bold");
     }
   }
 }
