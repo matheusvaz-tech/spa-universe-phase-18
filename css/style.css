@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("http://localhost:3000/imgs/background-home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+header {
+  height: 4.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  padding: 2.5rem 4.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.4s;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.bold:focus {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+
+  color: white;
+}
+
+main h1 {
+  margin-top: 14rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+main h1,
+section h2 {
+  font-size: 3rem;
+}
+
+main button {
+  padding: 0.75rem 2rem;
+  background: transparent;
+
+  border: 0.125rem solid white;
+  border-radius: 0.25rem;
+
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.4s;
+}
+
+main button:hover {
+  background: white;
+  color: #02799d;
+}
+
+section {
+  padding-left: 4.5rem;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+section p {
+  max-width: 40.5rem;
+}
